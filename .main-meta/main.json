@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64ea48-breathing-led-mplab-melody",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "AVR64EA48 Breathing LED with Timer's Compare Channel",
         "projectName": "avr64ea48-breathing-led-mplab-melody",
-        "shortDescription": "This example showcases how to breathe an LED with  fake  PWM provided by Timer's Compare Channel using AVR microcontroller and MCC Melody.",
+        "shortDescription": "This example showcases how to breathe an LED with fake PWM provided by Timer's Compare Channel using AVR microcontroller and MCC Melody.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.15.0"
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Ex_DFP",
+            "semverRange": "^2.6.181"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.3.7"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,17 @@
             }
         },
         "author": "Xiangyu Zhang",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "TCA",
+            "PWM",
+            "GPIO",
+            "Interrupt"
+        ],
+        "keywords": [
+            "Melody",
+            "XC8",
+            "LED"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
